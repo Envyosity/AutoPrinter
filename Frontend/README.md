@@ -12,19 +12,3 @@ One of my projects that involves printing an storage transfer history, it was de
   <li>🖨 Prints new transfers as they are detected</li>
   <li>🔍 Allows printing of a specific transfer by search</li>
 </ul>
-
-<h2>📦 Installation</h2>
-<p>Clone the repository and install dependencies:</p>
-
-<pre><code>git clone https://github.com/your-repo.git
-cd your-repo
-npm install
-</code></pre>
-
-<h2>🚀 Usage</h2>
-<p>Run the application:</p>
-
-<pre><code>npm start</code></pre>
-
-<h2>📜 License</h2>
-<p>This project is licensed u
