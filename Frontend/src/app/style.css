@@ -1,0 +1,94 @@
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
+
+/* #region button */
+
+.button {
+  margin-top: 15px;
+  background-color: #890069;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6b7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: 0.2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  max-width: 350px;
+}
+
+.button:disabled {
+  background-color: #5a4f4f !important;
+  cursor: default !important;
+}
+
+.button:hover {
+  background-color: #53003e;
+}
+
+.button:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+/* #endregion */
+
+/* #region form */
+.formContainer {
+  width: 60%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+/* #endregion */
+
+/* #region input */
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  width: 275px;
+  min-width: 100px;
+  height: 17px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  outline: none;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+  align-items: center;
+}
+
+.input:focus {
+  border: 1px solid #2684ff;
+  box-shadow: 0 0 0 1px #2684ff;
+}
+/* #endregion */
