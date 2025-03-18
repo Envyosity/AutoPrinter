@@ -1,16 +1,14 @@
 "use client";
 import "@/app/style.css";
 import axios from "axios";
-import Image from "next/image";
 import { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
-import logo from "./logo.png";
 
 export default function Home() {
   const [transferenciaId, setTransferenciaId] = useState<number | "">("");
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value.replace(/\D/g, ""); // Remove non-numeric characters
+    const value = e.target.value.replace(/\D/g, "");
     setTransferenciaId(value ? parseInt(value, 10) : "");
   };
 
